@@ -1,7 +1,5 @@
 package com.arshia.moviedatademo.navigation
 
-import androidx.compose.foundation.background
-import androidx.compose.material3.DrawerState
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
@@ -12,10 +10,9 @@ import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
 import com.arshia.moviedatademo.R
 import com.arshia.moviedatademo.ui.screens.movie.discover.MovieDiscover
-import com.arshia.moviedatademo.ui.screens.movie.moviedetail.MovieDetailUI
+import com.arshia.moviedatademo.ui.screen.movie.moviedetail.MovieDetailUI
 import com.arshia.moviedatademo.ui.screens.people.persondetail.PersonDetailUI
 import com.arshia.moviedatademo.ui.screens.playlist.PlaylistUI
-import kotlinx.coroutines.CoroutineScope
 
 @Composable
 fun MainNavHost(

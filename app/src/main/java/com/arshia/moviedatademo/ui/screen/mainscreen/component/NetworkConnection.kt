@@ -1,4 +1,4 @@
-package com.arshia.moviedatademo.ui.screens.mainscreen.component
+package com.arshia.moviedatademo.ui.screen.mainscreen.component
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.State

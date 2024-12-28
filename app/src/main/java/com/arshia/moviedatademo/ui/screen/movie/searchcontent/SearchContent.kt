@@ -1,4 +1,4 @@
-package com.arshia.moviedatademo.ui.screens.movie.searchcontent
+package com.arshia.moviedatademo.ui.screen.movie.searchcontent
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable

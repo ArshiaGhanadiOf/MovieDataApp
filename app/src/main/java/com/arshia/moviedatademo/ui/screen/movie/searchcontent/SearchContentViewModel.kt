@@ -1,4 +1,4 @@
-package com.arshia.moviedatademo.ui.screens.movie.searchcontent
+package com.arshia.moviedatademo.ui.screen.movie.searchcontent
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

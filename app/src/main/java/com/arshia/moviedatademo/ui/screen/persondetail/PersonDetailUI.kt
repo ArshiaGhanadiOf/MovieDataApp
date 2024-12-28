@@ -8,7 +8,6 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
@@ -21,7 +20,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.stringResource
@@ -37,9 +35,10 @@ import com.arshia.moviedatademo.data.base.BaseApiURL
 import com.arshia.moviedatademo.data.model.persondetails.PersonCredits
 import com.arshia.moviedatademo.data.model.persondetails.PersonDetails
 import com.arshia.moviedatademo.navigation.parentDestination
+import com.arshia.moviedatademo.ui.screen.persondetail.PersonDetailsViewModel
 import com.arshia.moviedatademo.ui.screens.movie.component.ArrowBackBackAppBar
 import com.arshia.moviedatademo.ui.screens.movie.component.ExpandingText
-import com.arshia.moviedatademo.ui.screens.movie.moviedetail.MovieView
+import com.arshia.moviedatademo.ui.screen.movie.moviedetail.MovieView
 import com.arshia.moviedatademo.ui.theme.DetailsBackgroundBrush
 import com.arshia.moviedatademo.utils.genderValueToString
 import com.arshia.moviedatademo.utils.network.DataResult

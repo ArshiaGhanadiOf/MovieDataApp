@@ -1,4 +1,4 @@
-package com.arshia.moviedatademo.ui.screens.people.persondetail
+package com.arshia.moviedatademo.ui.screen.persondetail
 
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf

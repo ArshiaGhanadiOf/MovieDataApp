@@ -10,7 +10,7 @@ import androidx.compose.runtime.getValue
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.arshia.moviedatademo.helper.ConnectionStatus
 import com.arshia.moviedatademo.ui.screens.mainscreen.MainScreen
-import com.arshia.moviedatademo.ui.screens.mainscreen.component.connectivityStatus
+import com.arshia.moviedatademo.ui.screen.mainscreen.component.connectivityStatus
 import com.arshia.moviedatademo.ui.theme.MovieDataDemoTheme
 import dagger.hilt.android.AndroidEntryPoint
 

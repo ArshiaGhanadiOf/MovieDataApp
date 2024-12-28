@@ -20,12 +20,13 @@ import com.arshia.moviedatademo.data.model.Genre
 import com.arshia.moviedatademo.data.model.Genres
 import com.arshia.moviedatademo.navigation.ScreenObject
 import com.arshia.moviedatademo.navigation.currentDestination
+import com.arshia.moviedatademo.ui.screen.movie.discover.MovieDiscoverViewModel
 import com.arshia.moviedatademo.ui.screens.movie.component.MovieAppBar
 import com.arshia.moviedatademo.ui.screens.movie.component.MovieGenreTaps
 import com.arshia.moviedatademo.ui.screens.movie.component.MovieNavigationBar
 import com.arshia.moviedatademo.ui.screens.movie.nowplaying.NowPlaying
 import com.arshia.moviedatademo.ui.screens.movie.popular.Popular
-import com.arshia.moviedatademo.ui.screens.movie.searchcontent.MovieSearchContent
+import com.arshia.moviedatademo.ui.screen.movie.searchcontent.MovieSearchContent
 import com.arshia.moviedatademo.ui.screens.movie.toprated.TopRated
 import com.arshia.moviedatademo.ui.screens.movie.upcoming.Upcoming
 import com.arshia.moviedatademo.ui.theme.Thunder

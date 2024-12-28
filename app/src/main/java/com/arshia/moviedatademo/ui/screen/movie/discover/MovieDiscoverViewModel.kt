@@ -1,4 +1,4 @@
-package com.arshia.moviedatademo.ui.screens.movie.discover
+package com.arshia.moviedatademo.ui.screen.movie.discover
 
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
