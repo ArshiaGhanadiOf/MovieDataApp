@@ -1,11 +1,9 @@
-package com.arshia.moviedatademo.ui.screens.movie.moviedetail
+package com.arshia.moviedatademo.ui.screen.movie.moviedetail
 
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.arshia.moviedatademo.data.base.BaseGenre
-import com.arshia.moviedatademo.data.datasource.room.MovieDatabase
 import com.arshia.moviedatademo.data.model.MovieList
 import com.arshia.moviedatademo.data.model.favoritemovie.FavoriteMovie
 import com.arshia.moviedatademo.data.model.moviedetails.MovieDetails
@@ -14,8 +12,6 @@ import com.arshia.moviedatademo.data.repository.remote.DataRepository
 import com.arshia.moviedatademo.data.repository.room.DatabaseRepository
 import com.arshia.moviedatademo.utils.network.DataResult
 import dagger.hilt.android.lifecycle.HiltViewModel
-import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch

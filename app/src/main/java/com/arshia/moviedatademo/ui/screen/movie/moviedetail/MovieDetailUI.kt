@@ -51,7 +51,6 @@ import com.arshia.moviedatademo.navigation.ScreenObject
 import com.arshia.moviedatademo.navigation.parentDestination
 import com.arshia.moviedatademo.ui.screens.movie.component.ArrowBackBackAppBar
 import com.arshia.moviedatademo.ui.screens.movie.component.ExpandingText
-import com.arshia.moviedatademo.ui.screens.movie.moviedetail.MovieDetailsViewModel
 import com.arshia.moviedatademo.ui.theme.LightningYellow
 import com.arshia.moviedatademo.ui.theme.DetailsBackgroundBrush
 import com.arshia.moviedatademo.ui.theme.DeepMagenta
